@@ -1,0 +1,16 @@
+{
+  "config": {
+    "classmap-authoritative": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Lacrif\\iTop\\Extension\\": "src"
+    }
+  },
+  "name": "lacrif/lacrif-loadbalancer",
+  "type": "itop-extension",
+  "description": "Add Load Balancers to iTop",
+  "require": {
+    "composer-runtime-api": "^2.0"
+  }
+}
